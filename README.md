@@ -91,7 +91,7 @@ Input'o, Output'ai visada yra vienodo dydžio, o to paties failo hash'as yra tas
 &emsp;hex'ų lygmenyje;
 Išveskite minimalią, maksimalią ir vidurkines "skirtingumo" reikšmes. Tokiu būdu įsitikinsite, kaip gerai Jūsų hash funkcija atitinka 7-ą reikalavimą (lavinos efektą).
 **Rezultatai**
-<img width="249" alt="Rezultatai" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/2f25df71-a095-469a-8b5c-e28abf24b841">
+<img width="249" alt="Rezultatai" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/2f25df71-a095-469a-8b5c-e28abf24b841">  
 ## Funkcijos stiprybės ir silpnybės  
 **Stiprybės:**  
 1. Kodas veikia greitai ir sklandžiai.  
