@@ -1,30 +1,30 @@
 # Hash_funkcija_v0.1
-Pseudo Kodas:
+Pseudo Kodas:  
 
-function value(input):__
-    ASCII_VALUE = 0__
-    for each character c in input:__
-        ASCII_VALUE += ASCII value of c__
-    return ASCII_VALUE__
-
-function generateHash(input):
-    Hash = ""
-    unique_number = convert value(input) to string
-    symbols = "0abc1def2ghi3jkl4mno5pqr6st7uvw8xyz9"
-    for each character c in unique_number:
-        Hash += symbols[c % 31]
-    i = 0
-    while length of Hash is not 32:
-        Hash += symbols[Hash[i] % 31]
-    return Hash
-
-function stringToHex(input):
-    hexString = ""
-    for each character c in input:
-        append hexadecimal representation of ASCII value of c to hexString, padded to width 2 with leading zeros
-    return hexString
-
-function main(argc, argv):
+function value(input):  
+    ASCII_VALUE = 0  
+    for each character c in input:  
+        ASCII_VALUE += ASCII value of c  
+    return ASCII_VALUE  
+  
+function generateHash(input):  
+    Hash = ""  
+    unique_number = convert value(input) to string  
+    symbols = "0abc1def2ghi3jkl4mno5pqr6st7uvw8xyz9"  
+    for each character c in unique_number:  
+        Hash += symbols[c % 31]  
+    i = 0  
+    while length of Hash is not 32:  
+        Hash += symbols[Hash[i] % 31]  
+    return Hash  
+  
+function stringToHex(input):  
+    hexString = ""  
+    for each character c in input:  
+        append hexadecimal representation of ASCII value of c to hexString, padded to width 2 with leading zeros  
+    return hexString  
+  
+function main(argc, argv):  
     input = ""
     if argc is 2:
         open input file specified in argv[1]
