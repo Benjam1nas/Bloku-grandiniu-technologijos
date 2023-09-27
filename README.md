@@ -1,5 +1,5 @@
 # Hash_funkcija_v0.1
-Pseudo Kodas:  
+## Pseudo Kodas:  
 
 function value(input):  
 &emsp;ASCII_VALUE = 0  
@@ -44,3 +44,5 @@ function main(argc, argv):
 &emsp;hexOutput = stringToHex(output)  
 &emsp;display "Hash: " + hexOutput  
 &emsp;return 0  
+
+## Eksperimentinė analizė:
