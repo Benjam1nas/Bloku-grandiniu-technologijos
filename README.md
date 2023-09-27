@@ -46,3 +46,13 @@ function main(argc, argv):
 &emsp;return 0  
 
 ## Eksperimentinė analizė:
+1. Susikurkite testinių įvedimo failų pavyzdžių, tokių kad:
+&emsp;Bent du failai būtų sudaryti tik iš vieno, tačiau skirtingo, simbolio.
+&emsp;Bent du failai būtų sudaryti iš daug (> 1000) atsitiktinai sugeneruotų simbolių.
+&emsp;Bent du failai būtų sudaryti iš daug (> 1000) simbolių, bet skirtųsi vienas nuo kito tik
+&emsp;vienu (pvz. vidurinėje pozicijoje esančiu) simboliu.
+&emsp;Tuščio failo.
+
+
+
+
