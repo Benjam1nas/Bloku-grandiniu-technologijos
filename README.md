@@ -48,14 +48,14 @@ function main(argc, argv):
 ## Eksperimentinė analizė:
 1. Susikurkite testinių įvedimo failų pavyzdžių, tokių kad:  
 &emsp;Bent du failai būtų sudaryti tik iš vieno, tačiau skirtingo, simbolio.
-&emsp;&emsp; 1 failo išvedimas: <img width="391" alt="1 simbolis" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/2b095c33-66b7-44ea-a7ee-44bf4e9a8c15">  
-&emsp;&emsp; 2 failo išvedimas: <img width="392" alt="1 kitoks simbolis" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/4087047c-ebeb-4be2-8e0c-7f9c956c08c7">  
+&emsp;&emsp;1 failo išvedimas: <img width="391" alt="1 simbolis" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/2b095c33-66b7-44ea-a7ee-44bf4e9a8c15">  
+&emsp;&emsp;2 failo išvedimas: <img width="392" alt="1 kitoks simbolis" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/4087047c-ebeb-4be2-8e0c-7f9c956c08c7">  
 &emsp;Bent du failai būtų sudaryti iš daug (> 1000) atsitiktinai sugeneruotų simbolių.  
-&emsp;&emsp; 1 failo išvedimas: <img width="394" alt="random_c_1" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/dcaaf3a2-b44d-44f5-b729-893c8e9bae53">  
-&emsp;&emsp; 2 failo išvedimas: <img width="392" alt="random_c_2" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/c6761c3b-a1af-4e4b-b363-b5f6ad91a53d">  
+&emsp;&emsp;1 failo išvedimas: <img width="394" alt="random_c_1" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/dcaaf3a2-b44d-44f5-b729-893c8e9bae53">  
+&emsp;&emsp;2 failo išvedimas: <img width="392" alt="random_c_2" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/c6761c3b-a1af-4e4b-b363-b5f6ad91a53d">  
 &emsp;Bent du failai būtų sudaryti iš daug (> 1000) simbolių, bet skirtųsi vienas nuo kito tik vienu (pvz. vidurinėje pozicijoje esančiu) simboliu.  
-&emsp;&emsp; 1 failo išvedimas:<img width="395" alt="random1" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/4fe68e82-2af3-4f55-86bb-02c7585c3f5a">  
-&emsp;&emsp; 2 failo išvedimas: <img width="390" alt="random1changed" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/a2b32257-a9db-4c79-803a-7951cba5abce">  
+&emsp;&emsp;1 failo išvedimas:<img width="395" alt="random1" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/4fe68e82-2af3-4f55-86bb-02c7585c3f5a">  
+&emsp;&emsp;2 failo išvedimas: <img width="390" alt="random1changed" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/a2b32257-a9db-4c79-803a-7951cba5abce">  
 &emsp;Tuščio failo.  
 &emsp;&emsp;failo išvedimas:  <img width="389" alt="tuscias" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/1bc5bb46-804b-43fa-87b9-f69339e0c987">  
 
