@@ -1,11 +1,11 @@
 # Hash_funkcija_v0.1
 Pseudo Kodas:
 
-function value(input):
-    ASCII_VALUE = 0
-    for each character c in input:
-        ASCII_VALUE += ASCII value of c
-    return ASCII_VALUE
+function value(input):__
+    ASCII_VALUE = 0__
+    for each character c in input:__
+        ASCII_VALUE += ASCII value of c__
+    return ASCII_VALUE__
 
 function generateHash(input):
     Hash = ""
