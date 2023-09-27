@@ -72,7 +72,7 @@ Input'o, Output'ai visada yra vienodo dydžio, o to paties failo hash'as yra tas
 
 | 2 eilutės | 4 eilutės | 8 eilutės | 16 eilučių | 32 eilutės | 64 eilutės | 128 eilutės | 256 eilutės |
 | ---       | ---       | ---       | ---        | ---        | ---        | ---         | ---         |
-| 0.000596s | 0.000558s | 0.000586s | 0.000614s  | 0.000554s  | 0.00059s   | 0.000694s   | 0.000736s   |  
+| 0.000516s | 0.000558s | 0.000566s | 0.000594s  | 0.000614s  | 0.000649s  | 0.000694s   | 0.000736s   |  
 
 &emsp;Rezultatą prašytume pavaizduoti grafiškai, parodant kaip laikas priklauso nuo input dydžio.  
 &emsp;Galima (bet ne privaloma) ir algoritmų sudėtingumą (tiesinis, kvadratinis, logaritminis, eksponentinis ir pan.) pasitelkti, norint įvertinti šią priklausomybę.  
