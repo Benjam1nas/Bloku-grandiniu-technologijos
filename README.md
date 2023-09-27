@@ -71,7 +71,7 @@ Input'o, Output'ai visada yra vienodo dydžio, o to paties failo hash'as yra tas
 &emsp;Tuomet pakartokite eksperimentą hash'uojant 2 eilutes, 4 eilutes, 8 eilutes ir t.t. (16, 32, 64, ...). Pažymime, kad reikia matuoti, tik hash'avimo funkcijos veikimo laiką (be input'o nuskaitymo/parengimo). Reiktų pateikti suvidurkintą (kartojant tą patį eksperimentą pvz. 5 kartus) hash'avimo laiko priklausomybę nuo input dydžio (eilučių skaičiaus). Kitaip sakant, reikia ištirti, kaip hash'avimo laikas didėja, didėjant input dydžiui.  
 | 2 eilutės | 4 eilutės | 8 eilutės | 16 eilučių | 32 eilutės | 64 eilutės | 128 eilutės | 256 eilutės |
 | --------- | --------- | --------- | ---------- | ---------- | ---------- | ----------- | ----------- |
-|           |           |           |            |            |            |             |             |  
+| 0.000596s | 0.000558s | 0.000586s | 0.000614s  | 0.000554s  | 0.00059s   | 0.000694s   | 0.000736s   |  
 &emsp;Rezultatą prašytume pavaizduoti grafiškai, parodant kaip laikas priklauso nuo input dydžio.  
 &emsp;Galima (bet ne privaloma) ir algoritmų sudėtingumą (tiesinis, kvadratinis, logaritminis, eksponentinis ir pan.) pasitelkti, norint įvertinti šią priklausomybę.  
 
