@@ -2,7 +2,7 @@
 Pseudo Kodas:  
 
 function value(input):  
-    ASCII_VALUE = 0  
+&ensp;ASCII_VALUE = 0  
     for each character c in input:  
         ASCII_VALUE += ASCII value of c  
     return ASCII_VALUE  
