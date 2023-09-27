@@ -57,7 +57,22 @@ function main(argc, argv):
 &emsp;&emsp;1 failo išvedimas:<img width="395" alt="random1" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/4fe68e82-2af3-4f55-86bb-02c7585c3f5a">  
 &emsp;&emsp;2 failo išvedimas: <img width="390" alt="random1changed" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/a2b32257-a9db-4c79-803a-7951cba5abce">  
 &emsp;Tuščio failo.  
-&emsp;&emsp;failo išvedimas:  <img width="389" alt="tuscias" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/1bc5bb46-804b-43fa-87b9-f69339e0c987">  
+&emsp;&emsp;failo išvedimas:  <img width="389" alt="tuscias" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/1bc5bb46-804b-43fa-87b9-f69339e0c987">
+
+2. Naudojant pirmame žingsnyje susikurtus testinius failus, kaip Jūsų programos input'us,
+įsitikinkite, kad Jūsų hash funkcija atitinka 1-3 reikalavimus, t.y., nepriklausomai nuo
+Input'o, Output'ai visada yra vienodo dydžio, o to paties failo hash'as yra tas pats
+(deterministiškumas).  
+&emsp;Pirmas reikalavimas: Maišos funkcijos įėjimas (angl. input) gali būti bet kokio dydžio simbolių eilutė (angl. string). **ATITINKA**  
+&emsp;Antras reikalavimas: Maišos funkcijos išėjimas (angl. output) visuomet yra to paties, fiksuoto, dydžio rezultatas (pageidautina 256 bit'ų ilgio, t.y., 64 simbolių hex'as).  **ATITINKA**
+&emsp; Trečias reikalavimas: Maišos funkcija yra deterministinė, t. y., tam pačiam įvedimui (input'ui) išvedimas (output'as) visuomet yra tas pats. **ATITINKA**
+
+3. Ištirkite Jūsų sukurtos hash funkcijos efektyvumą, t.y., patikrinkite, kaip Jūsų hash'avimo funkcija atitinka 4-ą reikalavimą. Tuo tikslu pirmiausiai suhash'uokite vieną eilutę iš failo konstitucija.txt ir išmatuokite kiek laiko visa tai užtruko.  
+&emsp;Tuomet pakartokite eksperimentą hash'uojant 2 eilutes, 4 eilutes, 8 eilutes ir t.t. (16, 32, 64, ...). Pažymime, kad reikia matuoti, tik hash'avimo funkcijos veikimo laiką (be input'o nuskaitymo/parengimo). Reiktų pateikti suvidurkintą (kartojant tą patį
+eksperimentą pvz. 5 kartus) hash'avimo laiko priklausomybę nuo input dydžio (eilučių skaičiaus). Kitaip sakant, reikia ištirti, kaip hash'avimo laikas didėja, didėjant input
+dydžiui.
+&emsp;Rezultatą prašytume pavaizduoti grafiškai, parodant kaip laikas priklauso nuo input dydžio.  
+&emsp;Galima (bet ne privaloma) ir algoritmų sudėtingumą (tiesinis, kvadratinis, logaritminis, eksponentinis ir pan.) pasitelkti, norint įvertinti šią priklausomybę.  
 
 
 
