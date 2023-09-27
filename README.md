@@ -84,7 +84,8 @@ Input'o, Output'ai visada yra vienodo dydžio, o to paties failo hash'as yra tas
 **25 000 porų, ilgis 10 simbolių rezultatas:** <img width="395" alt="pirma pora" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/5895e965-acae-49f6-ae9b-2f2f54bc5f74">  
 **25 000 porų, ilgis 100 simbolių rezultatas:** <img width="394" alt="pora100" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/b22a927c-7b34-4dec-a1a1-4fe4dacefc19">  
 **25 000 porų, ilgis 500 simbolių rezultatas:** <img width="389" alt="pora500" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/ee2c225b-b782-4af0-992c-d370a357235b">  
-**25 000 porų, ilgis 1000 simbolių rezultatas:** <img width="390" alt="pora1000" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/aa09b614-aef9-4004-a775-f77bcec67e40">  
+**25 000 porų, ilgis 1000 simbolių rezultatas:** <img width="390" alt="pora1000" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/aa09b614-aef9-4004-a775-f77bcec67e40">
+**Kolizijos nėra**
 
 
 
