@@ -77,6 +77,7 @@ Input'o, Output'ai visada yra vienodo dydžio, o to paties failo hash'as yra tas
 &emsp;Rezultatą prašytume pavaizduoti grafiškai, parodant kaip laikas priklauso nuo input dydžio.  
 <img width="361" alt="laikai" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/a8237eae-263a-40af-b036-665e87fa934e">  
 &emsp;Galima (bet ne privaloma) ir algoritmų sudėtingumą (tiesinis, kvadratinis, logaritminis, eksponentinis ir pan.) pasitelkti, norint įvertinti šią priklausomybę.  
+&emsp;&emsp;Algoritmo sudėtingumas yra O(n). Visos naudojamos funkcijos priklauso nuo ivedamo parametro ir ciklai vykdomi n kartų.
 
 
 
