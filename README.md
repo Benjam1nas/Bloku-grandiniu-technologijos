@@ -1,4 +1,4 @@
-# Hash_funkcija_v0.1
+# Hash_funkcija
 ## Pseudo Kodas:  
 
 function value(input):  
