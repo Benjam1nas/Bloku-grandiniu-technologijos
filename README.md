@@ -47,7 +47,7 @@ function main(argc, argv):
 
 ## Eksperimentinė analizė:
 1. Susikurkite testinių įvedimo failų pavyzdžių, tokių kad:  
-&emsp;Bent du failai būtų sudaryti tik iš vieno, tačiau skirtingo, simbolio.
+&emsp;Bent du failai būtų sudaryti tik iš vieno, tačiau skirtingo, simbolio.  
 &emsp;&emsp;1 failo išvedimas: <img width="391" alt="1 simbolis" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/2b095c33-66b7-44ea-a7ee-44bf4e9a8c15">  
 &emsp;&emsp;2 failo išvedimas: <img width="392" alt="1 kitoks simbolis" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/4087047c-ebeb-4be2-8e0c-7f9c956c08c7">  
 &emsp;Bent du failai būtų sudaryti iš daug (> 1000) atsitiktinai sugeneruotų simbolių.  
