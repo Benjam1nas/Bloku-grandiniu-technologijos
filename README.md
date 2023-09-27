@@ -1,1 +1,1 @@
-# Bloku-grandiniu-technologijos
+# Hash_funkcija_v0.1
