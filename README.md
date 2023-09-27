@@ -57,7 +57,7 @@ function main(argc, argv):
 &emsp;&emsp; 1 failo išvedimas:<img width="395" alt="random1" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/4fe68e82-2af3-4f55-86bb-02c7585c3f5a">  
 &emsp;&emsp; 2 failo išvedimas: <img width="390" alt="random1changed" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/a2b32257-a9db-4c79-803a-7951cba5abce">  
 &emsp;Tuščio failo.  
-&emsp;&emsp; failo išvedimas:  <img width="389" alt="tuscias" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/1bc5bb46-804b-43fa-87b9-f69339e0c987">  
+&emsp;&emsp;failo išvedimas:  <img width="389" alt="tuscias" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/1bc5bb46-804b-43fa-87b9-f69339e0c987">  
 
 
 
