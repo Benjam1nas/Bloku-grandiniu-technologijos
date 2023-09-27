@@ -2,45 +2,45 @@
 Pseudo Kodas:  
 
 function value(input):  
-&ensp;ASCII_VALUE = 0  
-    for each character c in input:  
-        ASCII_VALUE += ASCII value of c  
-    return ASCII_VALUE  
+&emsp;ASCII_VALUE = 0  
+&emsp;for each character c in input:  
+&emsp;&emsp;ASCII_VALUE += ASCII value of c  
+&emsp;return ASCII_VALUE  
   
 function generateHash(input):  
-    Hash = ""  
-    unique_number = convert value(input) to string  
-    symbols = "0abc1def2ghi3jkl4mno5pqr6st7uvw8xyz9"  
-    for each character c in unique_number:  
-        Hash += symbols[c % 31]  
-    i = 0  
-    while length of Hash is not 32:  
-        Hash += symbols[Hash[i] % 31]  
-    return Hash  
+&emsp;Hash = ""  
+&emsp;unique_number = convert value(input) to string  
+&emsp;symbols = "0abc1def2ghi3jkl4mno5pqr6st7uvw8xyz9"  
+&emsp;for each character c in unique_number:  
+&emsp;&emsp;Hash += symbols[c % 31]  
+&emsp;i = 0  
+&emsp;while length of Hash is not 32:  
+&emsp;&emsp;Hash += symbols[Hash[i] % 31]  
+&emsp;return Hash  
   
 function stringToHex(input):  
-    hexString = ""  
-    for each character c in input:  
-        append hexadecimal representation of ASCII value of c to hexString, padded to width 2 with leading zeros  
-    return hexString  
+&emsp;hexString = ""  
+&emsp;for each character c in input:  
+&emsp;&emsp;append hexadecimal representation of ASCII value of c to hexString, padded to width 2 with leading zeros  
+&emsp;return hexString  
   
 function main(argc, argv):  
-    input = ""
-    if argc is 2:
-        open input file specified in argv[1]
-        if file cannot be opened:
-            display "Error: Could not open input file " + argv[1]
-            return 1
-        while not end of file:
-            read a character x from the file
-            append x to input
-    else if argc is 1:
-        display "Enter your input: "
-        read a line of text from the user and store it in input
-    else:
-        display "Usage: " + argv[0] + " [input_file]"
-        return 1
-    output = generateHash(input)
-    hexOutput = stringToHex(output)
-    display "Hash: " + hexOutput
-    return 0
+&emsp;input = ""  
+&emsp;if argc is 2:  
+&emsp;&emsp;open input file specified in argv[1]  
+&emsp;&emsp;if file cannot be opened:  
+&emsp;&emsp;&emsp;display "Error: Could not open input file " + argv[1]  
+&emsp;&emsp;&emsp;return 1  
+&emsp;&emsp;while not end of file:  
+&emsp;&emsp;&emsp;read a character x from the file  
+&emsp;&emsp;&emsp;append x to input  
+&emsp;else if argc is 1:  
+&emsp;&emsp;display "Enter your input: "  
+&emsp;&emsp;read a line of text from the user and store it in input  
+&emsp;else:  
+&emsp;&emsp;display "Usage: " + argv[0] + " [input_file]"  
+&emsp;&emsp;return 1  
+&emsp;output = generateHash(input)  
+&emsp;hexOutput = stringToHex(output)  
+&emsp;display "Hash: " + hexOutput  
+&emsp;return 0  
