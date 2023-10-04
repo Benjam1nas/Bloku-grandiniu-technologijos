@@ -97,10 +97,10 @@ Išveskite minimalią, maksimalią ir vidurkines "skirtingumo" reikšmes. Tokiu 
 1. Kodas veikia greitai ir sklandžiai.  
 2. Grąžinamas rezultatas visada yra tokio pačio dydžio (64 simbolių hex'as).  
 3. Maišos funkcija yra deterministinė.  
-4. Įvedimas gali būti bet kokio dydžio.  
-5. Testai rodo, kad rezultatas yra atsparus kolizijai.  
+4. Įvedimas gali būti bet kokio dydžio.   
 **Silpnybės:**  
 1. Sąlyginai silpnas lavinos efektas.  
-2. Programos kodas būtų nesunkiai nulaužiamas kadangi maišos funkcija veikia pagal simbolių ASCII reikšmę.  
+2. Programos kodas būtų nesunkiai nulaužiamas kadangi maišos funkcija veikia pagal simbolių ASCII reikšmę.
+3. Egzistuoja kolizijos. Jų būna nedaug, ir stipriausiai pasireiškia, kai įvedimai būna trumpi. 
 
 
