@@ -81,11 +81,10 @@ Input'o, Output'ai visada yra vienodo dydžio, o to paties failo hash'as yra tas
 
 4. Susigeneruokite bent 100 000 atsitiktinių simbolių eilučių ( string 'ų) porų, pvz. (asdfg, hijkl), apsiribojant iki 1000 simbolių ilgiu. Toje pačioje poroje esančių string'ų ilgiai turi sutapti, tačiau skirtingos poros gali būti skirtingo ilgio. Rekomenduojame susigeneruoti taip: 25 000 porų, kurių ilgis 10 simbolių, kitas 25 000 porų, kurių ilgis - 100, dar kitas 25 000 poras - 500, ir galiausiai likusias 25 000 poras, kurių ilgis - 1000 simbolių.  
 5. Naudodami 4 žingsnyje sugeneruotas poras, patikrinkite, ar visais atvejais gautieji porų hash'ai nesutampa. O jeigu sutampta, tai kaip dažnai tai nutinka. Tokiu būdu (jei visuomet hash'ai nesutampa) bent dalinai įsitikinsite, kad Jūsų hash funkcija atitinka 6-ą reikalavimą, t.y., atsparumą kolizijai.
-**25 000 porų, ilgis 10 simbolių rezultatas:** <img width="395" alt="pirma pora" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/5895e965-acae-49f6-ae9b-2f2f54bc5f74">  
-**25 000 porų, ilgis 100 simbolių rezultatas:** <img width="394" alt="pora100" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/b22a927c-7b34-4dec-a1a1-4fe4dacefc19">  
-**25 000 porų, ilgis 500 simbolių rezultatas:** <img width="389" alt="pora500" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/ee2c225b-b782-4af0-992c-d370a357235b">  
-**25 000 porų, ilgis 1000 simbolių rezultatas:** <img width="390" alt="pora1000" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/aa09b614-aef9-4004-a775-f77bcec67e40">  
-**Kolizijos nėra**
+**25 000 porų, ilgis 10 simbolių rezultatas:** <img width="116" alt="25k_10" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/4e02e5fd-5eb1-41fb-b9e6-78f6ac2db5dc">  
+**25 000 porų, ilgis 100 simbolių rezultatas:** <img width="107" alt="25k_100" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/68158617-baa4-4d5a-9dfa-1b000232e690">  
+**25 000 porų, ilgis 500 simbolių rezultatas:** <img width="107" alt="25k_500" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/ae100261-be04-4d9b-b2b6-a84e3daf9bf7">  
+**25 000 porų, ilgis 1000 simbolių rezultatas:** <img width="106" alt="25k_1000" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/6026f894-88b7-4e2b-906e-1fa17658c16f">  
 6. Susigeneruokite bent 100 000 atsitiktinių simbolių eilučių ( string 'ų) porų, apsiribojant iki 1000 simbolių eilučių ilgiu (kaip ir aukščiau), taip, kad jos skirtųsi tik vienu simboliu pvz.: (asdfg, bsdfg). Įvertinkite Jūsų gautų hash'ų procentinį "skirtingumą":  
 &emsp;bitų lygmenyje;  
 &emsp;hex'ų lygmenyje;
