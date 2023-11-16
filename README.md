@@ -37,6 +37,16 @@ Atlikimas: <img width="194" alt="uzd 6" src="https://github.com/Benjam1nas/Bloku
 8. Transakcijos hash'o tikrinimas: Pool'o lygmenyje realizuokite validumo patikrinimą, t.y., ar tranksakcijos informacijos hash'as sutampa su transakcijos ID. Tokiu būdu įsitikinsite, kad transakcija nebuvo suklastota, kol ji "keliavo" iki transakcijų pool'o. <br />
 Atlikimas: <img width="480" alt="validation" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/00ed85b8-92a9-49ed-ad8a-caecb8fc6c69">
 
+## Pliusai ir minusai:
+Pliusai:
+Kodas efektyvus, lengvai skaitomas. <br />
+Lengva naudotis kadangi visas blockchainas aprašytas klase. <br />
+Minusai:
+Silpna hash funkcija todėl sunku surasti logiška diffuclty target. <br />
+
+
+
+
 
  
 
