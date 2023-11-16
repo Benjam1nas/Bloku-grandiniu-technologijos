@@ -32,9 +32,9 @@ Atlikimas: <img width="447" alt="uzd 5" src="https://github.com/Benjam1nas/Bloku
 Užduotis tobulinta pagal V0.2 reikalavimus.
 6. Kartoti 3-5 žingsnius tol, kol yra laisvų transakcijų. Galima būtų kartoti ir visus 1-5 žingsnius, tokiu būdu įtraukiant ir naujų vartotojų bei transakcijų kūrimą, o ciklą stabdyti naudojantis kitomis logiškomis sąlygomis.
 Atlikimas: <img width="194" alt="uzd 6" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/1d679c88-bd74-49df-9df8-675b72d30462">  
-Merkle hash relizacija:
+7. Merkle hash relizacija:
 <img width="452" alt="merkle root" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/54065091-5e5f-4660-a256-27834c821151">  
-Transakcijos hash'o tikrinimas: Pool'o lygmenyje realizuokite validumo patikrinimą, t.y., ar tranksakcijos informacijos hash'as sutampa su transakcijos ID. Tokiu būdu įsitikinsite, kad transakcija nebuvo suklastota, kol ji "keliavo" iki transakcijų pool'o.  
+8. Transakcijos hash'o tikrinimas: Pool'o lygmenyje realizuokite validumo patikrinimą, t.y., ar tranksakcijos informacijos hash'as sutampa su transakcijos ID. Tokiu būdu įsitikinsite, kad transakcija nebuvo suklastota, kol ji "keliavo" iki transakcijų pool'o.  
 Atlikimas: <img width="480" alt="validation" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/00ed85b8-92a9-49ed-ad8a-caecb8fc6c69">
 
 
