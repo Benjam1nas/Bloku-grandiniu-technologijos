@@ -1,17 +1,17 @@
 # Supaprastintos blokų grandinės (blockchain) kūrimas
 
 ## Užduoties atlikimas:
-1. Sugeneruoti ~1000 tinklo vartotojų (aka user'ių), kurie turėtų bent tris atributus:  
-&emsp;vardą,  
-&emsp;viešąjį hash raktą ( public_key )  
-&emsp;tam tikros valiutos atsitiktinį balansą (pvz., nuo 100 iki 1000000 valiutos vienetų)  
-Atlikimas: <img width="651" alt="uzd1" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/8535b6ee-015f-492d-afdc-00ec5cbc1679">
-2. Sugeneruoti ~10000 naujų, į jokį bloką dar neįdėtų, transakcijų pool'ą, o transakcijų struktūra turėtų bent šiuos atributus:  
-&emsp;transakcijos ID (kitų transakcijos laukų hash'as),  
-&emsp;siuntėjas (jo viešasis raktas)  
-&emsp;gavėjas (jo viešasis raktas)  
-&emsp;suma  
-&emsp;Transakcijų struktūrą galite tobulinti savo nuožiūra pvz., vietoj sąskaitos modelio (angl.account model) galite adaptuoti UTXO modelį.
+1. Sugeneruoti ~1000 tinklo vartotojų (aka user'ių), kurie turėtų bent tris atributus:<br />  
+&emsp;vardą,<br />  
+&emsp;viešąjį hash raktą ( public_key )<br />  
+&emsp;tam tikros valiutos atsitiktinį balansą (pvz., nuo 100 iki 1000000 valiutos vienetų)<br />  
+Atlikimas: <img width="651" alt="uzd1" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/8535b6ee-015f-492d-afdc-00ec5cbc1679"><br />
+2. Sugeneruoti ~10000 naujų, į jokį bloką dar neįdėtų, transakcijų pool'ą, o transakcijų struktūra turėtų bent šiuos atributus:<br />  
+&emsp;transakcijos ID (kitų transakcijos laukų hash'as),<br />  
+&emsp;siuntėjas (jo viešasis raktas)<br />  
+&emsp;gavėjas (jo viešasis raktas)<br />  
+&emsp;suma<br />  
+&emsp;Transakcijų struktūrą galite tobulinti savo nuožiūra pvz., vietoj sąskaitos modelio (angl.account model) galite adaptuoti UTXO modelį.<br />
 Atlikimas: <img width="549" alt="uzd2" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/d8929aab-def5-4ea9-a11e-7bab1df92c93">
 3. Iš transakcijų pool'o atsitiktinai pasirinkti 100-ą transakcijų, kurias bandysime įdėti į naują bloką. Tarsime, kad naujas blokas talpins apie 100 transakcijų. Reikiama bloko struktūra ir būtini atributai pateikti paveiksle aukščiau.
 Atlikimas: <img width="233" alt="3 uzd" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/7448bb2a-a969-4910-b985-99cbec93e6b1">
@@ -21,7 +21,7 @@ Atlikimas: <img width="482" alt="4" src="https://github.com/Benjam1nas/Bloku-gra
 <img width="464" alt="4uzd 2" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/442a2e32-6c18-4f32-9f9d-8411dceedd73">
 <img width="218" alt="4 uzd 3" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/c27aa943-e2e2-4147-9de5-45143db9004c">
 <img width="398" alt="4 uzd 4" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/64ba8b14-519f-4ba6-a58e-299077f7ce7d">
-Ši užduotis yra tobulinta pagal V0.2 reikalavimus, paimami 5 kandidatai. Blockchainas yra aprašytas klasės pavidalu, galimą bloką pridėti neieškant kandidatų ir tiesiog kasti bloką arba galima su kandidatais priklausomai nuo kviečiamų klasės funkcijų.  
+Ši užduotis yra tobulinta pagal V0.2 reikalavimus, paimami 5 kandidatai. Blockchainas yra aprašytas klasės pavidalu, galimą bloką pridėti neieškant kandidatų ir tiesiog kasti bloką arba galima su kandidatais priklausomai nuo kviečiamų klasės funkcijų.<br />  
 5. Suradus reikiamų savybių naujo bloko hash'ą:  
 &emsp;iš transakcijų pool'o ištrinkite į naują bloką priskirtas transakcijas;  
 &emsp;"įvykdykite" transakcijas, t.y., atnaujinkite tinklo vartotojų balansus;  
