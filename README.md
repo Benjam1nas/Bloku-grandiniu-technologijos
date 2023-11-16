@@ -21,16 +21,16 @@ Atlikimas: <img width="482" alt="4" src="https://github.com/Benjam1nas/Bloku-gra
 <img width="464" alt="4uzd 2" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/442a2e32-6c18-4f32-9f9d-8411dceedd73">
 <img width="218" alt="4 uzd 3" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/c27aa943-e2e2-4147-9de5-45143db9004c">
 <img width="398" alt="4 uzd 4" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/64ba8b14-519f-4ba6-a58e-299077f7ce7d">
-Ši užduotis yra tobulinta pagal V0.2 reikalavimus, paimami 5 kandidatai. Blockchainas yra aprašytas klasės pavidalu, galimą bloką pridėti neieškant kandidatų ir tiesiog kasti bloką arba galima su kandidatais priklausomai nuo kviečiamų klasės funkcijų.
+Ši užduotis yra tobulinta pagal V0.2 reikalavimus, paimami 5 kandidatai. Blockchainas yra aprašytas klasės pavidalu, galimą bloką pridėti neieškant kandidatų ir tiesiog kasti bloką arba galima su kandidatais priklausomai nuo kviečiamų klasės funkcijų.  
 5. Suradus reikiamų savybių naujo bloko hash'ą:  
 &emsp;iš transakcijų pool'o ištrinkite į naują bloką priskirtas transakcijas;  
 &emsp;"įvykdykite" transakcijas, t.y., atnaujinkite tinklo vartotojų balansus;  
-&emsp;naują bloką pridėkite prie blockchain grandinės.  
+&emsp;naują bloką pridėkite prie blockchain grandinės.    
 Atlikimas: <img width="447" alt="uzd 5" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/c8d92d38-67f6-4622-9545-9327cae2ba90">
 <img width="191" alt="5" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/b01862f0-bc6d-40dc-b043-f004d9af983d">
 <img width="365" alt="5 uzd 3" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/5b9f2dec-ce64-4964-b1f4-611fa4c3c642">
-Užduotis tobulinta pagal V0.2 reikalavimus.
-6. Kartoti 3-5 žingsnius tol, kol yra laisvų transakcijų. Galima būtų kartoti ir visus 1-5 žingsnius, tokiu būdu įtraukiant ir naujų vartotojų bei transakcijų kūrimą, o ciklą stabdyti naudojantis kitomis logiškomis sąlygomis.
+Užduotis tobulinta pagal V0.2 reikalavimus.  
+6. Kartoti 3-5 žingsnius tol, kol yra laisvų transakcijų. Galima būtų kartoti ir visus 1-5 žingsnius, tokiu būdu įtraukiant ir naujų vartotojų bei transakcijų kūrimą, o ciklą stabdyti naudojantis kitomis logiškomis sąlygomis.  
 Atlikimas: <img width="194" alt="uzd 6" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/1d679c88-bd74-49df-9df8-675b72d30462">  
 7. Merkle hash relizacija:
 <img width="452" alt="merkle root" src="https://github.com/Benjam1nas/Bloku-grandiniu-technologijos/assets/116347949/54065091-5e5f-4660-a256-27834c821151">  
