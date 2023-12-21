@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4; /* Set a light background color */
+}
+
+.container-fluid {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #e1eafa;
+  border-radius: 10px; /* Add some border radius for a softer look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+#content {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar-brand {
+  margin-right: 0 !important;
+  font-size: 1.5rem;
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+  border: 2px solid #000; /* Set border color for the table to black */
+  border-collapse: collapse; /* Collapse the border spacing */
+  background-color: #fff; /* Set a white background color for the table */
+}
+
+.table th,
+.table td {
+  text-align: center;
+  padding: 10px; /* Add padding to th and td */
+  border: 2px solid #000; /* Set border color for table cells to black */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  display: block;
+  margin: 0 auto;
+  background-color: #e1eafa; /* Change button color */
+  border-color: #e1eafa; /* Change border color */
+  color: #007bff; /* Change text color */
+}
+
+.btn-primary:hover {
+  background-color: #b8d8f9; /* Change button color on hover */
+  border-color: #b8d8f9; /* Change border color on hover */
+  color: #007bff; /* Change text color on hover */
+}
